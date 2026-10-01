@@ -3,6 +3,16 @@
 C++ coursework project extending the course RTBase renderer. This repository
 contains the program only; the coursework report is not included.
 
+![Cornell-box path-tracing output](docs/images/cornell-box-render.png)
+
+## Project focus
+
+This is a compact public record of a computer-graphics coursework submission:
+working C++ source, a Windows x64 demo, scene assets required by that demo, and
+clear run/build notes. It is intentionally not a full coursework archive.
+Course briefs, report material, solution archives, and unrelated working files
+are excluded.
+
 ## Run
 
 Download or clone the entire repository, then double-click `Run_Demo.cmd`.
@@ -59,3 +69,9 @@ Plastic remain course placeholders. First-hit AOVs omit geometry behind glass.
 2.5.1 distribution: headers, import library, CPU DLLs and original notices.
 GPU backends and SDK utilities are omitted. Licence notices remain in `doc/`
 and `x64/Release/oidn-licenses/`; original course/source comments are preserved.
+
+## Attribution and redistribution
+
+This project was built from teaching material and includes third-party runtime
+components. See [ATTRIBUTION.md](ATTRIBUTION.md) before reusing, redistributing,
+or treating any part of this repository as independently licensed.
